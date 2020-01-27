@@ -22,10 +22,7 @@
         $(".quick-footer").hide();
         var click_events = $(".mt-10")
         page_urls=click_events[1].children;
-        $(page_urls[0]).click(function(e){
-          e.preventDefault();
-          window.open("http://localhost/thailand/pages/sportsbook.php","_self");
-        })
+     
         $(page_urls[2]).click(function(e){
           e.preventDefault();
           window.open("http://localhost/thailand/pages/slots.php","_self");
