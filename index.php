@@ -17,9 +17,7 @@
    
     <script type="text/javascript">
         $(document).ready(function(){
-        $(".btn-register-lg").hide();
-        $(".hamburger").hide();
-        $(".quick-footer").hide();
+     
         var click_events = $(".mt-10")
         page_urls=click_events[1].children;
         $(page_urls[0]).click(function(e){
