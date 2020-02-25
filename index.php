@@ -26,7 +26,18 @@
           e.preventDefault();
           window.open("http://localhost/thailand/pages/sportsbook.php","_self");
         })
-       
+        $(page_urls[2]).click(function(e){
+          e.preventDefault();
+          window.open("http://localhost/thailand/pages/slots.php","_self");
+        })
+        $(page_urls[3]).click(function(e){
+          e.preventDefault();
+          window.open("http://localhost/thailand/pages/casino.php","_self");
+        })
+        $(page_urls[5]).click(function(e){
+          e.preventDefault();
+          window.open("http://localhost/thailand/pages/promotion.php","_self");
+        })
     });
     </script>
 
