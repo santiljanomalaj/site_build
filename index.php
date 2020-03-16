@@ -24,19 +24,19 @@
         page_urls=click_events[1].children;
         $(page_urls[0]).click(function(e){
           e.preventDefault();
-          window.open("http://localhost/thailand/sportsbook.php","_self");
+          window.open("http://localhost/thailand/pages/sportsbook.php","_self");
         })
         $(page_urls[2]).click(function(e){
           e.preventDefault();
-          window.open("http://localhost/thailand/slots.php","_self");
+          window.open("http://localhost/thailand/pages/slots.php","_self");
         })
         $(page_urls[3]).click(function(e){
           e.preventDefault();
-          window.open("http://localhost/thailand/casino.php","_self");
+          window.open("http://localhost/thailand/pages/casino.php","_self");
         })
         $(page_urls[5]).click(function(e){
           e.preventDefault();
-          window.open("http://localhost/thailand/promotion.php","_self");
+          window.open("http://localhost/thailand/pages/promotion.php","_self");
         })
     });
     </script>
