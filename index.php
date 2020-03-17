@@ -30,10 +30,7 @@
           e.preventDefault();
           window.open("http://localhost/thailand/pages/slots.php","_self");
         })
-        $(page_urls[3]).click(function(e){
-          e.preventDefault();
-          window.open("http://localhost/thailand/pages/casino.php","_self");
-        })
+      
        
     });
     </script>
