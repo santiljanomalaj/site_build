@@ -8,10 +8,7 @@
                   "Content-Type: application/json; charset=utf-8\r\n"
       )
     );
-    $context = stream_context_create($opts);
-    $site_content=file_get_contents($page, false, $context);
-
-    echo $site_content;
+  
    ?>
 
    
