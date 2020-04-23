@@ -15,5 +15,11 @@
    ?>
 
    
-
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $(".btn-register-lg").hide();
+        $(".hamburger").hide();
+        $(".quick-footer").hide();
+    });
+    </script>
 
